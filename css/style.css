@@ -25,3 +25,8 @@ img {
     border-radius: 50%;
     line-height: 40px;
 }
+
+.padding-custom {
+    padding-left: 16%;
+    padding-right: 16%;
+}
