@@ -1,0 +1,20 @@
+.bg-dark-blue {
+    background-color: rgb(49, 64, 81);
+}
+
+.bg-hero {
+    background-color: rgb(43, 186, 154);
+}
+
+.bg-light-blue {
+    background-color: rgb(63, 84, 108);
+}
+
+img {
+    width: 100%;
+}
+
+.row div {
+    min-height: 150px;
+    border: 2px dashed black;
+}
