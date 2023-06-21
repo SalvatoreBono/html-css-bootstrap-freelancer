@@ -14,7 +14,19 @@ img {
     width: 100%;
 }
 
-.row div {
+/* .row div {
     min-height: 150px;
     border: 2px dashed black;
+} */
+
+.text-hero {
+    color: rgb(43, 186, 154);
+}
+
+.ico-brand {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
 }
