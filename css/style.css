@@ -41,3 +41,7 @@ img {
     height: 3px;
     border-radius: 2px;
 }
+
+.btn-send:hover {
+    background-color: rgb(43, 186, 154);
+}
