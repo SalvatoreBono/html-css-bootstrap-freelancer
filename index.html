@@ -56,8 +56,15 @@
             <div class="col-4 col-md-3 col-lg-3 pb-3">
               <img class="rounded" src="img/avatar.svg" alt="" />
             </div>
-            <div class="box">
+            <div>
               <h1>START BOOTSTRAP</h1>
+              <div
+                class="d-flex justify-content-center align-items-center pb-3 pt-3"
+              >
+                <div class="line-stars col-1 col-md-1 bg-white"></div>
+                <i class="fa-solid fa-star pe-4 ps-4 fa-lg"></i>
+                <div class="col-1 col-md-1 line-stars bg-white"></div>
+              </div>
               <h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
             </div>
           </div>
@@ -65,6 +72,11 @@
       </section>
       <section class="container text-center pt-5 pb-5">
         <h2>PORTOFOLIO</h2>
+        <div class="d-flex justify-content-center pt-3 pb-3">
+          <div class="line-stars col-1 col-md-1 bg-black"></div>
+          <i class="fa-solid fa-star pe-4 ps-4 fa-lg"></i>
+          <div class="col-1 col-md-1 line-stars bg-black"></div>
+        </div>
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6">
             <img class="rounded" src="img/cabin.png" alt="" />
@@ -89,6 +101,11 @@
       <section class="bg-hero pb-3 pt-5">
         <div class="container text-light">
           <h2 class="text-center">ABOUT</h2>
+          <div class="d-flex justify-content-center pt-3 pb-3">
+            <div class="line-stars col-1 col-md-1 bg-white"></div>
+            <i class="fa-solid fa-star pe-4 ps-4 fa-lg"></i>
+            <div class="col-1 col-md-1 line-stars bg-white"></div>
+          </div>
           <div class="row">
             <div
               class="col-md-6 d-sm-flex justify-content-sm-center justify-content-md-start"
@@ -128,20 +145,50 @@
         class="container col-sm-6 col-md-7 col-lg-8 pt-5 pb-5 padding-custom"
       >
         <h2 class="text-center">CONTACT ME</h2>
-        <div>Name</div>
-        <hr />
-        <div>Email Address</div>
-        <hr />
-        <div>Phone Number</div>
-        <hr />
-        <div>Message</div>
-        <div>
+        <div class="d-flex justify-content-center pt-3 pb-3">
+          <div class="line-stars col-1 col-md-1 bg-black"></div>
+          <i class="fa-solid fa-star pe-4 ps-4 fa-lg"></i>
+          <div class="col-1 col-md-1 line-stars bg-black"></div>
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control custom-border"
+            id="formGroupExampleInput"
+            placeholder="Name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Email Address</label
+          >
+          <input
+            type="text"
+            class="form-control custom-border"
+            id="formGroupExampleInput2"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label"
+            >Phone Number</label
+          >
+          <input
+            type="text"
+            class="form-control custom-border"
+            id="formGroupExampleInput"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Message</label
+          >
           <textarea
-            class="border-top-0 border-start-0 border-end-0 w-100"
-            name="message"
-            id="message"
-            cols="5"
-            rows="5"
+            class="form-control custom-border"
+            id="exampleFormControlTextarea1"
+            rows="3"
           ></textarea>
         </div>
         <button class="btn bg-hero text-light mt-2">Send</button>

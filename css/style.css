@@ -18,10 +18,26 @@ img {
     color: rgb(43, 186, 154);
 }
 
+.custom-border {
+    border-top: 0;
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 .25rem rgba(43, 186, 154);
+}
+
 .ico-brand {
     border: 1px solid white;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     line-height: 40px;
+}
+
+.line-stars {
+    height: 3px;
+    border-radius: 2px;
 }
